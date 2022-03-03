@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}
+
+body {
+    background-color: rgb(51, 50, 50)
+}
+
+main {
+    
+    background-color: rgb(0, 0, 0);
+    margin: 25px auto;
+    width: 1200px;
+    padding: 20px;
+    border: 1px solid lightgray;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(28, 27, 31);
+    color: rgb(145, 154, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+ul li {
+    list-style: circle;
+}
